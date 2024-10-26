@@ -1,0 +1,41 @@
+.notFound-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notFound-container > div {
+    font-weight: bolder;
+    font-size: x-large;
+    color: rgb(105, 101, 101);
+}
+
+
+.button {
+    width: 200px;
+    margin: 20px;
+    display: inline-block;  
+    padding: 10px 20px;  
+    background-color: #007bff;  
+    color: white; 
+    text-decoration: none;  
+    border-radius: 4px;  
+    border: none;  
+    font-size: 16px;  
+    cursor: pointer;  
+    text-align: center;  
+    transition: background-color 0.3s ease;  
+  }
+  
+  .button:hover {
+    background-color: #0056b3;  
+  }
+  
+  .button:active {
+    background-color: #004085;  
+  }
+  
+  .button:focus {
+    outline: none;  
+  }
