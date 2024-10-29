@@ -1,8 +1,41 @@
-# React + Vite
+# My Online Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Table of Contents
+        Features
+        Technologies Used
+        Getting Started
+        Folder Structure
+        Usage
+        License
+
+
+    Features:
+        Home Page
+        Browse Books Page
+        Book Details Page
+        Add Book Page
+        404 Page
+
+    Technologies Used
+        Frontend: React, Redux, JavaScript, HTML, CSS
+        Routing: React Router
+        State Management: Redux
+        Build Tool: Vite + React
+
+
+    Getting Started
+        Clone the Repository:
+            git clone https://github.com/your-username/online-library-system.git
+            cd online-library-system
+        Install Dependencies:
+            npm install
+        Run the Application:
+            npm start
+            open localhost:5173
+            
+    License
+        No license.
+
+
