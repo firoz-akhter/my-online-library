@@ -68,7 +68,7 @@
     border-radius: 8px; 
 }
 
-/* Styling for the buttons */
+
 .buttons-div > button {
     padding: 10px 20px; 
     font-size: 16px;  
@@ -80,7 +80,8 @@
     transition: background-color 0.3s ease;  
 }
 
-/* Hover effect for buttons */
+
+
 .buttons-div > button:hover {
     background-color: #0056b3;  
 }

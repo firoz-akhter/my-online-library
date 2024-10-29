@@ -92,8 +92,8 @@ function BrowseBooks({ setViewedBook }) {
 
         let newList = bookList.filter(
             (book) =>
-                book.title.toLowerCase().includes(lowerCaseQuery) || // Check if title matches
-                book.author.toLowerCase().includes(lowerCaseQuery)   // Check if author matches
+                book.title.toLowerCase().includes(lowerCaseQuery) || 
+                book.author.toLowerCase().includes(lowerCaseQuery)
         );
 
         setBooks(newList);
