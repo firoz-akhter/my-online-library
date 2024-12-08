@@ -119,7 +119,8 @@ function App() {
   return (
     // <Router>
       <Routes>
-        <Route path="/" element={<Home popularBooks={popularBooks} setViewedBook={setViewedBook} />} />
+        {/* <Route path="/" element={<Home popularBooks={popularBooks} setViewedBook={setViewedBook} />} /> */}
+        <Route path="/" element={<BrowseBooks setViewedBook={setViewedBook} />} />
         <Route path="/browseBooks" element={<BrowseBooks setViewedBook={setViewedBook} />} />
         <Route path="/browseBooks/:category" element={<BrowseBooks setViewedBook={setViewedBook} />} />
         <Route path="/bookDetails/:id" element={<BookDetails viewedBook={viewedBook} bookList={popularBooks} />} />
